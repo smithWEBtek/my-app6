@@ -9,6 +9,7 @@ import {evens, odds, users, pets, fruits, heroes} from './Arrays';
 ReactDOM.render(
   <App 
     arg={pets}
+    msg="Click to change Animals"
     />,
   document.querySelector('#root')
 )
