@@ -20,5 +20,7 @@ export const TextField2 = (props) =>
 <input
   className="field field-light"
   onChange={props.onChange}
-  maxLength={props.maxLength || defaultMaxLength} 
-/>;
+  maxLength={props.maxLength || defaultMaxLength}
+  />
+
+ 
